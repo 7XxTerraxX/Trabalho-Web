@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ | Nexus Play</title>
+  <link rel="stylesheet" href="css/puro-faq.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="topo-interno">
+      <a href="index.html" class="logo">NEXUS<span>PLAY</span></a>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="jogos.html">Jogos</a></li>
+          <li><a href="consoles.html">Consoles</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="tabela.html">Comparativo</a></li>
+          <li><a href="ofertas.html">Ofertas</a></li>
+          <li><a href="faq.html" class="ativo">FAQ</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li>
+            <a href="jogos.html" class="carrinho-link">
+              🛒 <span id="contador-carrinho" class="badge-carrinho">0</span>
+            </a>
+          </li>
+          <li><a href="https://www.ign.com" target="_blank" rel="noopener">IGN ↗</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="conteudo">
+    <section class="cabecalho-pagina">
+      <h1>Perguntas frequentes</h1>
+      <p>Clique em uma pergunta para ver a resposta.</p>
+    </section>
+
+    <div class="busca-faq">
+      <label for="busca">Buscar dúvida:</label>
+      <input type="search" id="busca" placeholder="Ex.: garantia, entrega, troca...">
+    </div>
+
+    <section class="lista-faq" id="lista-faq"></section>
+
+    <section class="painel-avaliacao">
+      <h2>Essas respostas ajudaram?</h2>
+      <div class="botoes-avaliacao">
+        <button id="btn-sim" class="btn-avaliar" type="button">Sim, ajudaram</button>
+        <button id="btn-nao" class="btn-avaliar" type="button">Não resolvi minha dúvida</button>
+      </div>
+      <p id="retorno-avaliacao" class="retorno"></p>
+    </section>
+  </main>
+
+  <footer class="rodape-puro">
+    <p>© 2026 Nexus Play · Projeto acadêmico - Feito por Rodrigo Felipe de Souza e Gabriela Zlatic de Lima Terra</p>
+    <p>Loja especializada em video games desde 2007. Marechal, PR.</p>
+    <p><a href="contato.html">Falar com o suporte</a></p>
+  </footer>
+
+  <script src="js/puro-faq.js"></script>
+</body>
+</html>

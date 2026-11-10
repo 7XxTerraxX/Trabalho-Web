@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparativo | Nexus Play</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-nexus sticky-top py-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">NEXUS<span>PLAY</span></a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="jogos.html">Jogos</a></li>
+            <li class="nav-item"><a class="nav-link" href="consoles.html">Consoles</a></li>
+            <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link active" href="tabela.html">Comparativo</a></li>
+            <li class="nav-item"><a class="nav-link" href="ofertas.html">Ofertas</a></li>
+            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="jogos.html">🛒 <span id="contador-carrinho" class="badge bg-success">0</span></a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="https://www.ign.com" target="_blank" rel="noopener">IGN ↗</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container py-5">
+    <div id="area-alertas"></div>
+    <h1 class="mb-2">Comparativo de consoles</h1>
+    <p class="text-secondary mb-4">Dados oficiais dos fabricantes.</p>
+
+    <div class="table-responsive">
+      <table class="tabela-nexus">
+        <caption>Tabela 1 — Especificações técnicas comparadas</caption>
+        <thead>
+          <tr>
+            <th scope="col">Console</th>
+            <th scope="col">Fabricante</th>
+            <th scope="col">Armazenamento</th>
+            <th scope="col">Resolução máxima</th>
+            <th scope="col">Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>PlayStation 5 Slim</td>
+            <td>Sony</td>
+            <td>1 TB SSD</td>
+            <td>4K / 120 fps</td>
+            <td class="preco">R$ 3.799,00</td>
+          </tr>
+          <tr>
+            <td>Xbox Series X</td>
+            <td>Microsoft</td>
+            <td>1 TB SSD</td>
+            <td>4K / 120 fps</td>
+            <td class="preco">R$ 4.299,00</td>
+          </tr>
+          <tr>
+            <td>Nintendo Switch OLED</td>
+            <td>Nintendo</td>
+            <td>64 GB</td>
+            <td>1080p</td>
+            <td class="preco">R$ 2.499,00</td>
+          </tr>
+          <tr>
+            <td>Steam Deck OLED</td>
+            <td>Valve</td>
+            <td>512 GB SSD</td>
+            <td>1280 x 800 HDR</td>
+            <td class="preco">R$ 3.199,00</td>
+          </tr>
+          <tr>
+            <td>Xbox Series S</td>
+            <td>Microsoft</td>
+            <td>512 GB SSD</td>
+            <td>1440p / 120 fps</td>
+            <td class="preco">R$ 2.199,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <section class="mt-5">
+      <h2 class="h4 mb-3">Como escolher</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="p-4 rounded h-100" style="background-color: var(--card); border: 1px solid var(--borda);">
+            <h3 class="h6 text-success">Melhor custo-benefício</h3>
+            <p class="text-secondary small mb-0">Xbox Series S entrega ótimo desempenho por um preço mais acessível.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 rounded h-100" style="background-color: var(--card); border: 1px solid var(--borda);">
+            <h3 class="h6 text-success">Melhor portátil</h3>
+            <p class="text-secondary small mb-0">Nintendo Switch OLED une catálogo exclusivo e mobilidade.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 rounded h-100" style="background-color: var(--card); border: 1px solid var(--borda);">
+            <h3 class="h6 text-success">Melhor desempenho</h3>
+            <p class="text-secondary small mb-0">Xbox Series X e PS5 lideram em potência gráfica bruta.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h5>Nexus Play</h5>
+          <p class="text-secondary small">Loja especializada em video games desde 2007. Marechal, PR.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Navegação</h5>
+          <ul>
+            <li><a href="consoles.html">Consoles</a></li>
+            <li><a href="jogos.html">Jogos</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Links externos</h5>
+          <ul>
+            <li><a href="https://www.ign.com" target="_blank" rel="noopener">IGN Brasil</a></li>
+            <li><a href="https://www.playstation.com" target="_blank" rel="noopener">PlayStation</a></li>
+            <li><a href="https://www.xbox.com" target="_blank" rel="noopener">Xbox</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="rodape-base text-center">© 2026 Nexus Play · Projeto acadêmico - Feito por Rodrigo Felipe de Souza e Gabriela Zlatic de Lima Terra</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
