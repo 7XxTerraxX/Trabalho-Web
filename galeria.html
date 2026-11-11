@@ -46,11 +46,9 @@
             <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
             <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro</a></li>
             <li class="nav-item">
-              <a class="nav-link" href="jogos.html">🛒 <span id="contador-carrinho" class="badge bg-success">0</span></a>
+              <a class="nav-link" href="jogos.html">Carrinho <span id="contador-carrinho" class="badge bg-success">0</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.ign.com" target="_blank" rel="noopener">IGN ↗</a>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="https://www.ign.com" target="_blank" rel="noopener">IGN</a></li>
           </ul>
         </div>
       </div>
@@ -86,11 +84,45 @@
     </div>
 
     <section>
-      <h2 class="mb-4">O que acontece na loja</h2>
-      <p class="text-secondary">
-        A Nexus Play recebe torneios de fighting games, encontros de speedrun e sessões
-        abertas de teste. As imagens acima foram registradas durante os eventos de 2026.
-      </p>
+      <h2 class="mb-4">Favoritos da comunidade</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <article class="card-game">
+            <img src="img/fnaf.png" alt="Capa do jogo Five Nights at Freddy's">
+            <div class="card-body">
+              <h3 class="card-title h6">FNAF</h3>
+              <p class="card-text small">Escolhido por 42% dos clientes.</p>
+              <button class="btn btn-limao btn-sm" type="button" data-favorito="4" aria-label="Favoritar FNAF">Favoritar</button>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="card-game">
+            <img src="img/coffe.png" alt="Capa do jogo Coffee Talk">
+            <div class="card-body">
+              <h3 class="card-title h6">Coffee Talk</h3>
+              <p class="card-text small">Escolhido por 31% dos clientes.</p>
+              <button class="btn btn-limao btn-sm" type="button" data-favorito="5" aria-label="Favoritar Coffee Talk">Favoritar</button>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="card-game">
+            <img src="img/wify.png" alt="Capa do jogo Hi-fi RUSH">
+            <div class="card-body">
+              <h3 class="card-title h6">Hi-fi RUSH</h3>
+              <p class="card-text small">Escolhido por 27% dos clientes.</p>
+              <button class="btn btn-limao btn-sm" type="button" data-favorito="6" aria-label="Favoritar Hi-fi RUSH">Favoritar</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5">
+      <h2 class="mb-3">Seus favoritos</h2>
+      <p class="text-secondary small mb-3">Os jogos que você marcou ficam salvos neste navegador.</p>
+      <div id="lista-favoritos" class="row g-4"></div>
     </section>
   </main>
 
@@ -107,15 +139,15 @@
             <li><a href="jogos.html">Jogos</a></li>
             <li><a href="consoles.html">Consoles</a></li>
             <li><a href="tabela.html">Comparativo</a></li>
-            <li><a href="contato.html">Contato</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
           </ul>
         </div>
         <div class="col-md-4">
           <h5>Links externos</h5>
           <ul>
             <li><a href="https://www.ign.com" target="_blank" rel="noopener">IGN Brasil</a></li>
-            <li><a href="https://www.playstation.com" target="_blank" rel="noopener">PlayStation</a></li>
-            <li><a href="https://www.xbox.com" target="_blank" rel="noopener">Xbox</a></li>
+            <li><a href="https://www.twitch.tv" target="_blank" rel="noopener">Twitch</a></li>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener">YouTube Gaming</a></li>
           </ul>
         </div>
       </div>
