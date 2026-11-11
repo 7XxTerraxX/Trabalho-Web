@@ -59,6 +59,10 @@ Trabalho-Web/
 
 https://github.com/7XxTerraxX/Trabalho-Web
 
+**Site**
+
+https://7xxterraxx.github.io/Trabalho-Web/
+
 ## Desenvolvedores
 
 - Gabriela Zlatic de Lima Terra
